@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Sign in</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -25,16 +27,12 @@
         .form-container {
             border: 2px solid rgb(255, 255, 255);
             padding: 50px 60px;
-            margin-top: 10vh;
-            -webkit-box-shadow: 11px 10px 5px 3px rgba(0, 0, 0, 0.63);
-            -moz-box-shadow: 11px 10px 5px 3px rgba(0, 0, 0, 0.63);
-            box-shadow: 11px 10px 5px 3px rgba(0, 0, 0, 0.63);
+            margin-top: 5vh;
+            -webkit-box-shadow: 11px 5px 5px 3px rgba(0, 0, 0, 0.63);
+            -moz-box-shadow: 11px 5px 5px 3px rgba(0, 0, 0, 0.63);
+            box-shadow: 11px 5px 5px 3px rgba(0, 0, 0, 0.63);
         }
     </style>
-
-
-
-
 </head>
 
 <body>
@@ -43,13 +41,21 @@
             <div class="col-md-4 col-sm-4 col-xl-12"></div>
             <div class="col-md-4 col-sm-4 col-xl-12">
                 <form class="form-container">
-                    <h1>Login</h1><br>
+                    <h1>Sign up</h1><br>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Name">
+                    </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Email address</label>
                         <input type="email" class="form-control" id="email" placeholder="Email">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPasswoed">Password</label>
+                        <label for="exampleInputPasswoed">Enter Password</label>
+                        <input type="password" class="form-control" id="pass" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPasswoed">Confirm Password</label>
                         <input type="password" class="form-control" id="pass" placeholder="Password">
                     </div>
                     <div class="form-gruop">
@@ -58,10 +64,8 @@
                         </label>
                     </div>
                     <div>
-                        <button type="submit" class="btn btn-success btn-block">Login</button>
+                        <button type="submit" class="btn btn-success btn-block">Sign up</button>
                     </div>
-                    <br>
-                    <p>Don't have an account ? <a href="signUp.html">Sign up</a></p>
                 </form>
             </div>
             <div class="col-md-4 col-sm-4 col-xl-12"></div>
