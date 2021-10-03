@@ -1,55 +1,105 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Sign in</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/7d64d705e7.js"
+      crossorigin="anonymous"
+    ></script>
+
     <style>
-        *{color:#000;}
-        .bg {background-image:  url("img1.jpg");background-size:cover;background-position:center center;background-attachment: fixed;width:100%;height:100vh;}
-        .form-container {border:2px solid rgb(255, 255, 255);padding: 50px 60px;margin-top: 20vh;
-        -webkit-box-shadow: 11px 10px 5px 3px rgba(0,0,0,0.63);
--moz-box-shadow: 11px 10px 5px 3px rgba(0,0,0,0.63);
-box-shadow: 11px 10px 5px 3px rgba(0,0,0,0.63);}
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        background: url(bg.jpg) no-repeat center center fixed;
+        background-size: cover;
+      }
+
+      .bg {
+        color: white;
+        position: absolute;
+        top: 35%;
+        left: 43%;
+      }
+      .bg h1{
+        font-size: 40px;
+        display: inline-block;
+        border-bottom: 5px solid purple;
+        margin-bottom: 11px;
+        padding: 13px 0;
+      }
+      .form-group{
+        width: 100%;
+        border-bottom: 2px solid purple;
+        margin: 22px 0;
+      }
+      .form-group input{
+        width: 75%;
+        background: none;
+        padding: 5px 10px;
+        font-size: 20px;
+        border: none;
+        outline: none;
+        color: white;
+      }
+      .form-group i{
+        width: 25px;
+        text-align: center;
+      }
+      .btn{
+        color: white;
+        background: none;
+        cursor: pointer;
+        outline: none;
+        margin: 12px 0;
+        padding: 10px 21px;
+        border-radius: 10px;
+        font-size: 18px;
+        border: 2px solid purple;
+        font-weight: bold;
+      }
+      .btn:hover{
+        color: purple;
+        background: white;
+        opacity: 0.5;
+      }
+      .checkbox input{
+          margin-right: 10px;
+          cursor: pointer;
+      }
 
     </style>
- 
-       
-        
-    
-</head>
-<body>
-    <div class="container-fluid bg">
-        <div class="row">
-        <div class="col-md-4 col-sm-4 col-xl-12"></div>
-        <div class="col-md-4 col-sm-4 col-xl-12">
-            <form class="form-container">
-                <h1>Login</h1><br>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="email" placeholder="Email">
-                </div>
-                <div class="form-group">
-                        <label for="exampleInputPasswoed">Password</label>
-                        <input type="password" class="form-control" id="pass" placeholder="Password">
-                </div>
-                <div class="form-gruop">
-                    <label>
-                        <input type="checkbox">Check me out
-                    </label>
-                </div>
-                <div>
-                    <button type="submit" class="btn btn-success btn-block">Submit</button>
-                </div>
-            </form>
-        </div>
-        <div class="col-md-4 col-sm-4 col-xl-12"></div>
+  </head>
 
-        </div>
+  <body>
+    <div class="container-fluid bg">
+      <h1>Login</h1>
+      <div class="form-group">
+        <i class="fa fa-envelope"></i>
+        <input
+          type="email"
+          class="form-control"
+          id="email"
+          placeholder="Email"
+        />
+      </div>
+      <div class="form-group">
+        <i class="fa fa-key"></i>
+        <input
+          type="password"
+          class="form-control"
+          id="pass"
+          placeholder="Password"
+        />
+      </div>
+      <div class="form-gruop checkbox">
+        <label> <input type="checkbox" />Check me out </label>
+      </div>
+      <div>
+        <button type="submit" class="btn btn-success btn-block">Submit</button>
+      </div>
     </div>
-    
-</body>
+  </body>
 </html>
