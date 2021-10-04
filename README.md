@@ -14,6 +14,13 @@
 * Download the image 
 * Replace the images from img folder
 
+## ❌Note : Things you can do !
+
+* Remove unnecessary things.
+* Replace the infortion.
+* Improve UI/UX. 
+* Add new features.
+
 #### Instagram photography account -https://www.instagram.com/my_gallery_4u/
 #### Instagram personal account -https://www.instagram.com/michael201199/
 
