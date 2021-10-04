@@ -21,6 +21,14 @@
 * Improve UI/UX. 
 * Add new features.
 
+## ❌Note : Read carefully before contributing.
+
+* Star the repository.
+* Create an issue first and then wait for approval.
+* Fork the repository.
+* Don't forget to add issue number in pr heading with screen shot of changes in description.
+* Make pull request and wait for approval.
+
 
 #### Instagram photography account -https://www.instagram.com/my_gallery_4u/
 #### Instagram personal account -https://www.instagram.com/michael201199/
