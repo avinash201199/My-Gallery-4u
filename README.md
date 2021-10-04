@@ -16,10 +16,11 @@
 
 ## ❌Note : Things you can do !
 
-* Remove unnecessary things.
-* Replace the infortion.
+* Remove unnecessary things and errors
+* Replace the information.
 * Improve UI/UX. 
 * Add new features.
+
 
 #### Instagram photography account -https://www.instagram.com/my_gallery_4u/
 #### Instagram personal account -https://www.instagram.com/michael201199/
