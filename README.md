@@ -6,7 +6,7 @@
 #### Take images from my instagram page and from this folder [my images](https://github.com/avinash201199/My-Gallery-4u/tree/master/my%20image)<br>
 #### Take my personal information from github profile [readme](https://github.com/avinash201199) and from [resume](https://drive.google.com/file/d/1K4-g2LlUJFHv-JzBtrBBSeBOUiRN1-iQ/view)
 
-## ❌Note : Don't add screen shot images, download the images from instagram.
+## ❌Note : Don't add screen shot , download the images from instagram.
 
 #### How to download image 
 * Copy the image link from instagram 
