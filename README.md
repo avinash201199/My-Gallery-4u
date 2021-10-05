@@ -32,4 +32,6 @@
 
 #### Instagram photography account -https://www.instagram.com/my_gallery_4u/
 #### Instagram personal account -https://www.instagram.com/michael201199/
+#### Linkedin - https://www.linkedin.com/in/avinash-singh-071b79175/
+#### Github - https://github.com/avinash201199
 
