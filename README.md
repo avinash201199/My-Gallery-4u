@@ -34,4 +34,5 @@
 #### Instagram personal account -https://www.instagram.com/michael201199/
 #### Linkedin - https://www.linkedin.com/in/avinash-singh-071b79175/
 #### Github - https://github.com/avinash201199
+#### Email - avinash201199@gmail.com
 
