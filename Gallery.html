@@ -85,10 +85,22 @@
     .marleft{
       margin-left: 10px;
     }  
+
+
+    .about{
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+}
+
       </style>
   </head>
   <body>
-    <center><h1><b>Welcome to My Gallery</b></h1></center>
+    <center><h1><b>Welcome to My Present an image</b></h1></center>
     <div class="gallery">
       <div class="image-container" id="imgs">
         <img src="https://images.unsplash.com/photo-1599394022918-6c2776530abb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1458&q=80"
@@ -108,7 +120,86 @@
        />
       </div>
 
+<!--owl carousel starts-->
+<h1 class ="about">Refreshing Images</h1>
+<section class="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4" >
+      <div class="card" >
+    <div class="card-body shade">
+      <h5 class="card-title">Card title</h5>
+      <div class="thumbnail"> 
+        <img src="https://source.unsplash.com/287x250/?javascript,java " alt = "study" class="imgfluid w-100">
+        </div>
+        <br>
+      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+    </div>
+  </div>
+  <div class="col-lg-4">  <div class="card" >
+    <div class="card-body shade">
+      <h5 class="card-title">Card title</h5>
+      <div class="thumbnail"> 
+        <img src="https://source.unsplash.com/287x250/?coding,website " alt = "study" class="imgfluid w-100">
+        </div>
+        <br>
+      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  </div>
+  <div class="col-lg-4" >
+  <div class="card" >
+    <div class="card-body shade">
+      <h5 class="card-title">Card title</h5>
+      <div class="thumbnail"> 
+        <img src="https://source.unsplash.com/287x250/?water,nature " alt = "study" class="imgfluid w-100">
+        </div>
+        <br>
+      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</section>
+<!--owl carousel ends-->
+<br><br><br>
 
+<center><h1><b>Moving Images</b></h1></center>
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://images.unsplash.com/photo-1599394022918-6c2776530abb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1458&q=80"
+      class="d-block w-100" height="400vh" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
+      class="d-block w-100" alt="..." height="400vh">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.unsplash.com/photo-1599561046251-bfb9465b4c44?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1492&q=80"
+      class="d-block w-100" alt="..." height="400vh">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<br><br><br>
      
       <div class="main">
 
