@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <label for='input' id='label'>
+        	Enter your name: 
+        </label>
+        <input id='input'>
+        
+        <script>
+        	var input = document.getElementById('input');
+            input.addEventListener('keyup',function(){
+                input.value = input.value.toUpperCase();
+                document.getElementById('label').style.color = 'blue';
+            })
+            input.addEventListener('focusout',function(){
+                input.value = input.value.toLowerCase();
+                input.style.color='red';
+                document.getElementById('label').style.color = 'red';
+            })
+        </script>
+    </body>
+</html>
