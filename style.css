@@ -1646,3 +1646,163 @@ input:required {
     border-radius: 10px; }
 
 /*# sourceMappingURL=style.css.map */
+
+footer {
+  background-color: #161715;
+  height: vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.containerUp {
+  display: flex;
+  /* background-color: #afb4bf; */
+}
+
+.social-info {
+  margin: 60px 30px ;
+  display: flex;
+  flex-direction: column;
+  border-right: grey solid 1px;
+  padding-right: 15px;
+}
+
+.social-info > .icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  transition: 0.5s;
+}
+
+.social-info > h2 {
+  color: gainsboro;
+  margin: 10px;
+}
+
+.social-info > .icons > a > img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  transition: 0.3s;
+}
+
+.social-info > .icons > a > img:hover {
+  cursor: pointer;
+  overflow: hidden;
+  transform: scale(1.2);
+}
+
+.connect {
+  display: flex;
+  flex-direction: column;
+  max-width: 680px;
+  margin: 0 20px;
+}
+
+.connect > h2 {
+  color: white;
+  margin-top: 40px;
+}
+
+.connect > form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.connect > form > input {
+  background-color:cornsilk;
+  padding: 10px;
+  border: solid 1px;
+  border-radius: 50px;
+  width: 80%;
+  max-width: 500px;
+}
+
+.connect > form > button {
+  margin: 15px 0px;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 50px;
+  background-color: grey;
+  color: whitesmoke;
+  transition: 0.3s;
+}
+
+.connect > form > button:hover {
+  letter-spacing: 1px;
+  color: #ffe89e;
+  outline-style: none;
+}
+.containerDown > a > h5 {
+  color: #f7f7f7;
+}
+
+.containerDown > a > span {
+  color: antiquewhite;
+}
+
+.containerDown {
+  text-align: center;
+}
+
+.last > p {
+  color: burlywood;
+}
+
+.last > p > .heart {
+  color: red;
+}
+
+.last > p > a {
+  color: #afb4bf;
+}
+
+
+@media only screen and (max-width: 750px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .social-info > .icons {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 1170px) {
+  .social-info {
+    flex-grow: 2;
+  }
+}
+
+
+
+/* moving body background   */
+
+body {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(45deg, yellow, violet, orange, grey);
+  background-size: 300% 300%;
+  animation: color 5s ease-in-out infinite;
+}
+
+@keyframes color{
+  0%{
+      background-position: 0 60%;
+  }
+  50%{
+      background-position: 100% 50%;
+  }
+  100%{
+      background-position: 0 50%;
+  }
+}
