@@ -13,14 +13,14 @@
 .mfp-wrap {
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   z-index: 1043;
   position: fixed;
   outline: none !important;
   -webkit-backface-visibility: hidden; }
 
-.mfp-container {
+/* .mfp-container {
   text-align: center;
   position: absolute;
   width: 100%;
@@ -28,7 +28,7 @@
   left: 0;
   top: 0;
   padding: 0 8px;
-  box-sizing: border-box; }
+  box-sizing: border-box; } */
 
 .mfp-container:before {
   content: '';
@@ -167,11 +167,11 @@ img.mfp-img {
   display: block;
   line-height: 0;
   box-sizing: border-box;
-  padding: 40px 0 40px;
-  margin: 0 auto; }
+  
+}
 
 /* The shadow behind the image */
-.mfp-figure {
+/* .mfp-figure {
   line-height: 0; }
   .mfp-figure:after {
     content: '';
@@ -187,7 +187,7 @@ img.mfp-img {
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
     background: #444; }
   .mfp-figure figure {
-    margin: 0; }
+    margin: 0; } */
 
 .mfp-bottom-bar {
   margin-top: -36px;
