@@ -10,10 +10,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>Alime - Photography HTML Template</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="img/core-img/favicon.png">
 
     <link rel="stylesheet" href="A.style.css.pagespeed.cf.0VivtDGN1d.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+
+    <style>
+        .Query {
+            display: flex;
+            justify-content: space-around;
+            padding: 100px 40px 80px 0px;
+        }
+
+        .Query .left h2 {
+            font-size: 50px;
+        }
+
+        .Query .right form {
+            border: 2px solid;
+            padding: 10px;
+            border-radius: 20px;
+            box-shadow: 5px 5px 10px black;
+        }
+
+        .Query .right form button {
+            padding: 10px 200px 10px 200px;
+            border-radius: 20px;
+            border: 2px solid black;
+            color: white;
+            font-weight: bold;
+            /* box-shadow: 2px 2px 10px black; */
+        }
+
+        h6 {
+            text-align: center;
+            position: relative;
+            top: -30px;
+            font-size: 25px;
+            z-index: 100;
+        }
+
+        .Query .right form button:hover {
+            padding: 10px 200px 10px 200px;
+            border-radius: 20px;
+            border: 2px solid black;
+            color: white;
+            font-weight: bold;
+            box-shadow: 2px 2px 10px black;
+        }
+
+        @media (max-width:700px) {
+            .Query {
+                flex-direction: column;
+                padding-left: 20px;
+            }
+
+            .Query .right form button {
+                padding: 10px 200px 10px 200px;
+
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -29,10 +91,12 @@
                 <div class="modal-content">
                     <div class="modal-body">
 
-                        <button type="button" class="btn close-btn" data-dismiss="modal"style="font-size: 18px;" ><i class="fas fa-times-circle"></i></button>
+                        <button type="button" class="btn close-btn" data-dismiss="modal" style="font-size: 18px;"><i
+                                class="fas fa-times-circle"></i></button>
 
                         <form action="https://preview.colorlib.com/theme/alime/index.html" method="post">
-                            <input type="search" name="top-search-bar" class="form-control" placeholder="Search and hit enter...">
+                            <input type="search" name="top-search-bar" class="form-control"
+                                placeholder="Search and hit enter...">
                             <button type="submit">Search</button>
                         </form>
                     </div>
@@ -49,7 +113,8 @@
 
                     <nav class="classy-navbar justify-content-between" id="alimeNav">
 
-                        <a class="nav-brand" href="index.html"><img src="img/core-img/xlogo.png.pagespeed.ic.60Us8DnX1M.png" alt=""></a>
+                        <a class="nav-brand" href="index.html"><img
+                                src="img/core-img/xlogo.png.pagespeed.ic.60Us8DnX1M.png" alt=""></a>
 
                         <div class="classy-navbar-toggler">
                             <span class="navbarToggler"><span></span><span></span><span></span></span>
@@ -70,7 +135,8 @@
                                     <li class="active"><a href="contact.html">Contact</a></li>
                                 </ul>
 
-                                <div class="search-icon" data-toggle="modal" data-target="#searchModal">  <i class="fa fa-search" aria-hidden="true"></i> </div>
+                                <div class="search-icon" data-toggle="modal" data-target="#searchModal"> <i
+                                        class="fa fa-search" aria-hidden="true"></i> </div>
                             </div>
 
                         </div>
@@ -81,7 +147,8 @@
     </header>
 
 
-    <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image:url(img/bg-img/x38.jpg.pagespeed.ic.iei-le2mzD.jpg)">
+    <section class="breadcrumb-area bg-img bg-overlay jarallax"
+        style="background-image:url(img/bg-img/x38.jpg.pagespeed.ic.iei-le2mzD.jpg)">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
@@ -89,7 +156,8 @@
                         <h2 class="page-title">Contact</h2>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb justify-content-center">
-                                <li class="breadcrumb-item"><a href="index.html"><i class="icon_house_alt"></i> Home</a></li>
+                                <li class="breadcrumb-item"><a href="index.html"><i class="icon_house_alt"></i> Home</a>
+                                </li>
                                 <li class="breadcrumb-item active" aria-current="page">Contact</li>
                             </ol>
                         </nav>
@@ -100,7 +168,7 @@
     </section>
 
 
-    <div class="contact-area section-padding-80-50">
+    <!-- <div class="contact-area section-padding-80-50">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-6">
@@ -110,7 +178,10 @@
 
                     <div class="contact-info mb-30">
                         <p>Email</p>
-                        <a href="https://preview.colorlib.com/cdn-cgi/l/email-protection#dbb2b5bdb4f5bfbebea9b8a9bebaafb2adbe9bbcb6bab2b7f5b8b4b6"><span class="__cf_email__" data-cfemail="21484f474e0f45444453425344405548574461464c40484d0f424e4c">[email&#160;protected]</span></a>
+                        <a
+                            href="https://preview.colorlib.com/cdn-cgi/l/email-protection#dbb2b5bdb4f5bfbebea9b8a9bebaafb2adbe9bbcb6bab2b7f5b8b4b6"><span
+                                class="__cf_email__"
+                                data-cfemail="21484f474e0f45444453425344405548574461464c40484d0f424e4c">[email&#160;protected]</span></a>
                     </div>
 
                     <div class="contact-info mb-30">
@@ -127,17 +198,85 @@
                 </div>
             </div>
         </div>
+    </div> -->
+
+
+    <div class="Query">
+        <div class="left">
+            <h2>Have Queries?<br> Send us a mail now!</h2>
+        </div>
+        <div class="right">
+            <form action="#">
+                <div class="row my-3">
+                    <div class="col">
+                        <input type="text" style="background-color: linear-gradient(goes left, orange, pink, blue);"
+                            class="form-control" placeholder="First name" aria-label="First name">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                    </div>
+                </div>
+                <div class="form-floating my-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating my-3">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                        style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Comments</label>
+                </div>
+                <br>
+                <button type="button" class="btn">Submit</button>
+            </form>
+        </div>
     </div>
 
+    <hr style="margin-left: 50px; margin-right: 50px;">
+    <h6>OR</h6>
 
-    <div class="map-area section-padding-0-80">
+    <div class="contact-area section-padding-80-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <h2 class="contact-title mb-30">You could also reach us at <br> =></h2>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+
+                    <div class="contact-info mb-30">
+                        <!-- <p>Email</p> -->
+                        <h4>Email</h4>
+                        <a
+                            href="https://preview.colorlib.com/cdn-cgi/l/email-protection#dbb2b5bdb4f5bfbebea9b8a9bebaafb2adbe9bbcb6bab2b7f5b8b4b6"><span
+                                class="__cf_email__"
+                                data-cfemail="21484f474e0f45444453425344405548574461464c40484d0f424e4c">[email&#160;protected]</span></a>
+                    </div>
+
+                    <div class="contact-info mb-30">
+                        <!-- <p>Call Us</p> -->
+                        <h4>Call Us</h4>
+                        <a href="#">+6511.188.888</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+
+                    <div class="contact-info mb-30">
+                        <!-- <p>Visit Us</p> -->
+                        <h4>Visit Us</h4>
+                        <a href="#">60-49 Road 11378 New York</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <!-- <div class="map-area section-padding-0-80">
         <div class="container">
             <div id="map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12309.440717226664!2d24.094896788114085!3d56.9484200464499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eecfb0e5073ded%3A0x400cfcd68f2fe30!2sRiga%2C+Latvia!5e0!3m2!1sen!2sbd!4v1550835159592"
                     allowfullscreen></iframe>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <div class="follow-area clearfix">
@@ -157,7 +296,7 @@
             <div class="single-instagram-item">
                 <img src="img/bg-img/x11.jpg.pagespeed.ic.EUL6KdRKnX.jpg" alt="">
                 <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
-                    <a href="#" style="font-size: 18px;"  >
+                    <a href="#" style="font-size: 18px;">
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                         <span>Alime_photographer</span>
                     </a>
@@ -167,7 +306,7 @@
             <div class="single-instagram-item">
                 <img src="img/bg-img/x12.jpg.pagespeed.ic.KtvCPGmp2L.jpg" alt="">
                 <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
-                    <a href="#" style="font-size: 18px;"  >
+                    <a href="#" style="font-size: 18px;">
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                         <span>Alime_photographer</span>
                     </a>
@@ -177,7 +316,7 @@
             <div class="single-instagram-item">
                 <img src="img/bg-img/x13.jpg.pagespeed.ic.Yyn_qfYWhe.jpg" alt="">
                 <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
-                    <a href="#" style="font-size: 18px;"  >
+                    <a href="#" style="font-size: 18px;">
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                         <span>Alime_photographer</span>
                     </a>
@@ -187,7 +326,7 @@
             <div class="single-instagram-item">
                 <img src="img/bg-img/x14.jpg.pagespeed.ic.HrODpshf0G.jpg" alt="">
                 <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
-                    <a href="#" style="font-size: 18px;"  >
+                    <a href="#" style="font-size: 18px;">
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                         <span>Alime_photographer</span>
                     </a>
@@ -197,7 +336,7 @@
             <div class="single-instagram-item">
                 <img src="img/bg-img/x15.jpg.pagespeed.ic.E9v-lQJEPj.jpg" alt="">
                 <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
-                    <a href="#" style="font-size: 18px;"  >
+                    <a href="#" style="font-size: 18px;">
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                         <span>Alime_photographer</span>
                     </a>
@@ -207,7 +346,7 @@
             <div class="single-instagram-item">
                 <img src="img/bg-img/x16.jpg.pagespeed.ic._rIX_EXu7n.jpg" alt="">
                 <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
-                    <a href="#" style="font-size: 18px;"  >
+                    <a href="#" style="font-size: 18px;">
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                         <span>Alime_photographer</span>
                     </a>
@@ -223,11 +362,16 @@
                 <div class="social-info">
                     <h2>Follow MY GALLERY 4U</h2>
                     <div class="icons">
-                        <a href="https://www.linkedin.com/in/avinash-singh-071b79175/" target="_blank"><img src="./img/footer-icons/pinpng.com-linkedin-png-533635.png" ></a>
-                        <a href="https://www.instagram.com/my_gallery_4u" target="_blank"><img src="./img/footer-icons/insta.jpg" ></a>
-                        <a href="https://www.instagram.com/my_gallery_4u" target="_blank"><img src="./img/footer-icons/pinterest-new.png" ></a>
-                        <a href="https://www.quora.com/profile/Avinash-Singh-4809" target="_blank"><img src="./img/footer-icons/quora.png" ></a>
-                        <a href="https://github.com/avinash201199" target="_blank"><img src="./img/footer-icons/gtihub.png"></a>
+                        <a href="https://www.linkedin.com/in/avinash-singh-071b79175/" target="_blank"><img
+                                src="./img/footer-icons/pinpng.com-linkedin-png-533635.png"></a>
+                        <a href="https://www.instagram.com/my_gallery_4u" target="_blank"><img
+                                src="./img/footer-icons/insta.jpg"></a>
+                        <a href="https://www.instagram.com/my_gallery_4u" target="_blank"><img
+                                src="./img/footer-icons/pinterest-new.png"></a>
+                        <a href="https://www.quora.com/profile/Avinash-Singh-4809" target="_blank"><img
+                                src="./img/footer-icons/quora.png"></a>
+                        <a href="https://github.com/avinash201199" target="_blank"><img
+                                src="./img/footer-icons/gtihub.png"></a>
                     </div>
                 </div>
                 <div class="connect">
@@ -241,7 +385,8 @@
             <hr>
             <div class="containerDown">
                 <div class="last">
-                    <p>Copyright © 2021 All rights reserved | Made with <span class="heart">❤</span> by <a href="#" target="_blank">Avinash Singh</a></p>
+                    <p>Copyright © 2021 All rights reserved | Made with <span class="heart">❤</span> by <a href="#"
+                            target="_blank">Avinash Singh</a></p>
                 </div>
             </div>
         </div>
@@ -275,7 +420,8 @@
 
         gtag('config', 'UA-23581568-13');
     </script>
-    <script defer src="../../../static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6990232fef241baa","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.9.0","si":100}'></script>
+    <script defer src="../../../static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon='{"rayId":"6990232fef241baa","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.9.0","si":100}'></script>
 </body>
 
 <!-- Mirrored from preview.colorlib.com/theme/alime/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 Oct 2021 17:30:56 GMT -->
