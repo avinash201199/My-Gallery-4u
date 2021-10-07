@@ -930,7 +930,7 @@ input:required {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 15px;
-    -webkit-transition-durati on: 800ms;
+    -webkit-transition-duration: 800ms;
     -o-transition-duration: 800ms;
     transition-duration: 800ms; }
   .why-choose-us-content p {
