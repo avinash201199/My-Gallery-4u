@@ -942,7 +942,8 @@ input:required {
   .why-choose-us-content:hover, .why-choose-us-content:focus {
     background-color: #fc6060; }
     .why-choose-us-content:hover .chosse-us-icon, .why-choose-us-content:focus .chosse-us-icon {
-      background-color: #000000;
+      background-color: #fff;
+      color: #fc6060;
       box-shadow: 0 5px 15px 2px rgba(255, 255, 255, 0.15); }
     .why-choose-us-content:hover h4,
     .why-choose-us-content:hover p, .why-choose-us-content:focus h4,
