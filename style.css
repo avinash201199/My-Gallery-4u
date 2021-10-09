@@ -109,7 +109,7 @@ h6 {
   }
    
   #social-sidebar a span:before {
-    content: "";
+    
     display: block;
     height: 8px;
     width: 8px;
@@ -148,7 +148,7 @@ a,
 a:active,
 a:focus,
 a:hover {
-  color: #252525;
+ 
   text-decoration: none;
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
