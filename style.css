@@ -1779,7 +1779,16 @@ footer {
   margin: 10px;
   transition: 0.3s;
 }
-
+.contact-info > .icons > a > img {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin: 0px;
+  transition: 0.3s;
+}
+.contact-info > .icons > a {
+  display: inline-block;
+}
 .social-info > .icons > a > img:hover {
   cursor: pointer;
   overflow: hidden;
