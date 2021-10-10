@@ -48,17 +48,14 @@
       overflow: hidden;
     }
     
-    .containerUp {
-      display: flex;
-      /* background-color: #afb4bf; */
-    }
+
     
     .social-info {
       margin: 60px 30px ;
       display: flex;
       flex-direction: column;
-      border-right: grey solid 1px;
       padding-right: 15px;
+      float: left;
     }
     
     .social-info > .icons {
@@ -75,8 +72,8 @@
     
     .social-info > .icons > a > img {
       border-radius: 50%;
-      height: 50px;
-      width: 50px;
+      height: 40px;
+      width: 40px;
       margin: 10px;
       transition: 0.3s;
     }
@@ -92,6 +89,8 @@
       flex-direction: column;
       max-width: 680px;
       margin: 0 20px;
+      float: left;
+      width:70%;
     }
     
     .connect > h2 {
@@ -110,7 +109,7 @@
       background-color:cornsilk;
       padding: 10px;
       border: solid 1px;
-      border-radius: 50px;
+      border-radius: 10px;
       width: 80%;
       max-width: 500px;
     }
@@ -119,7 +118,7 @@
       margin: 15px 0px;
       border: none;
       padding: 5px 10px;
-      border-radius: 50px;
+      border-radius: 10px;
       background-color: grey;
       color: whitesmoke;
       transition: 0.3s;
@@ -162,7 +161,6 @@
     
       .social-info > .icons {
         display: flex;
-        flex-direction: column;
       }
     }
     
@@ -171,6 +169,16 @@
         flex-grow: 2;
       }
     }
+    @media only screen and (max-width: 767px){
+            
+    .classy-nav-container .classy-navbar .nav-brand {
+    max-width: 200px !important;
+    margin-right: 15px;
+    }
+    .nav-brand h1{
+      font-size:25px;
+    }
+}
     
     /* moving body background   */
     
