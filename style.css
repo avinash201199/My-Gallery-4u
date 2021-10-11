@@ -1875,6 +1875,7 @@ footer {
 
 .pricing .cards{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   gap: 3em;
 }
@@ -1883,11 +1884,13 @@ footer {
   /* flex: 1; */
   display: flex;
   flex-direction: column;
-  width: 20vw;
+  width: 100%;
+  max-width: 300px;
   padding: 4em 2.5em;
   background: rgba(48, 47, 46, 0.2);
   color: #fff;
   transition: all .5s ease;
+  margin: 0 auto;
 }
 
 .pricing .cards .card:hover{
@@ -1917,6 +1920,10 @@ footer {
 @media only screen and (min-width: 1170px) {
   .social-info {
     flex-grow: 2;
+  }
+
+  .pricing .cards {
+    flex-direction: row;
   }
 }
 
