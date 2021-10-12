@@ -47,7 +47,16 @@
             border: 2px solid black;
             color: white;
             font-weight: bold;
+            /* width: 50%; */
             /* box-shadow: 2px 2px 10px black; */
+        }
+
+        h2{
+            text-align: center;
+        }
+
+        a{
+            text-decoration: none;
         }
 
         h6 {
@@ -56,6 +65,47 @@
             top: -30px;
             font-size: 25px;
             z-index: 100;
+        }
+
+        .row{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+        }
+
+        .icons-container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            background-color: rgba(240, 248, 255, 0.39);
+            border-radius: 5px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+
+        .icons{
+            /* background-color: rgba(240, 248, 255, 0.185); */
+            padding: 15%;
+            border-radius: 2px;
+            box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+        }
+
+        #footer-icons{
+            /* background-color: rgba(240, 248, 255, 0.185); */
+            padding: 0 15%;
+            border-radius: 2px;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            /* box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px; */
+        }
+
+        .icons:hover{
+            transform: scale(1.2);
+        }
+       
+        #footer-icons:hover{
+            transform: none;
         }
 
         .Query .right form button:hover {
@@ -82,7 +132,22 @@
         }
         @media (max-width: 535px) {
             .Query .right form button {
-                padding: 10px 200px 10px 175px;
+                padding: 10px 175px 10px 175px;
+            }
+        }
+
+        @media (max-width:420px) {
+            .icons-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+           }
+           .Query .right form button {
+                padding: 10px 30% 10px 30%;
+            }
+            .icons{
+            /* background-color: rgba(240, 248, 255, 0.185); */
+            padding: 10%;
             }
         }
     </style>
@@ -250,60 +315,73 @@
 
     <div class="contact-area section-padding-80-50">
         <div class="container">
+            <div class="heading">
             <div class="row">
                 <div class="col-12 col-lg-10">
                     <h2 class="contact-title mb-30" style="color:darkblue">You can also reach us at  <br></h2>
                     
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
+            </div>
+            <div class="icons-container">   
+                <!-- <div class="col-12 col-md-6 col-lg-3"> -->
+                <div>
 
-                    <div class="contact-info mb-30">
+                    <!-- <div class="contact-info mb-30"> -->
+                    <div class="contact-info">   
                         <!-- <p>Email</p> -->
                         
                         <div class="social-info">
                             
                             <div class="icons">
-                                <a href="https://www.linkedin.com/in/avinash-singh-071b79175/"> <img src="img/linkedin.png" target="_blank" max-width="2%"></a>
-                                
+                                <a href="https://www.linkedin.com/in/avinash-singh-071b79175/"> <img src="img/linkedin.png" target="_blank" max-width="2%">
                                 <p>Linkedin</p>
+                                </a>
                         </div>
                         </div>
                     </div>
 
-                    <div class="contact-info mb-30">
+                    <!-- <div class="contact-info mb-30"> -->
+                    <div class="contact-info">    
                         <!-- <p>Call Us</p> -->
                         <div class="social-info">
                             <div class="icons">
-                            <a href="8543928256"> <img src="img/call.jpg" target="_blank" max-width="2%"></a>
+                            <a href="8543928256"> <img src="img/call.jpg" target="_blank" max-width="2%">
                             <p>Call us</p>
+                            </a>
                            </div>
                         </div>
                         
                     </div>
                     
                 </div>
-                <div class="col-12 col-lg-3">
-                    
-                  <div class="contact-info mb-30">
+                <!-- <div class="col-12 col-lg-3"> -->
+                <div>    
+                  <!-- <div class="contact-info mb-30"> -->
+                    <div class="contact-info">  
                         <!-- <p>Visit Us</p> -->
                         
                         <div class="social-info">
                         <div class="icons">
-                        <a href="https://www.instagram.com/my_gallery_4u/"> <img src="img/ins.jpg" target="_blank" max-width="2%"></a>
+                        <a href="https://www.instagram.com/my_gallery_4u/"> <img src="img/ins.jpg" target="_blank" max-width="2%">
                         <p>Instagram</p>
+                        </a>
                        </div>
+
                        </div>
                     </div>
-                    <div class="contact-info mb-30">
+                    <!-- <div class="contact-info mb-30"> -->
+                        <div class="contact-info">
                         <!-- <p>Call Us</p> -->
                         <div class="social-info">
                             <div class="icons">
-                            <a href="https://www.facebook.com/profile.php?id=100007132384595"> <img src="img/Facebook.png" target="_blank" max-width="2%"></a>
+                            <a href="https://www.facebook.com/profile.php?id=100007132384595"> <img src="img/Facebook.png" target="_blank" max-width="2%">
                             <p>Facebook</p>
+                            </a>
                            </div>
                         </div>
                         
                     </div>
+                </div>     
                 </div>
 
                 
@@ -404,7 +482,7 @@
             <div class="containerUp">
                 <div class="social-info">
                     <h2>Follow MY GALLERY 4U</h2>
-                    <div class="icons">
+                    <div id="footer-icons" class="icons">
                         <a href="https://www.linkedin.com/in/avinash-singh-071b79175/" target="_blank"><img
                             src="./img/footer-icons/pinpng.com-linkedin-png-533635.png"></a>
                         <a href="https://www.instagram.com/my_gallery_4u" target="_blank"><img
