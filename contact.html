@@ -29,6 +29,10 @@
             justify-content: space-around;
             padding: 100px 40px 80px 0px;
         }
+        
+        h1{
+            color: ##aaa5a5;
+        }
 
         .Query .left h2 {
             font-size: 50px;
@@ -65,6 +69,10 @@
             top: -30px;
             font-size: 25px;
             z-index: 100;
+        }
+        
+        .form-control{
+            margin-top: 18px;
         }
 
         .row{
@@ -115,6 +123,13 @@
             font-weight: bold;
             box-shadow: 2px 2px 10px black;
         }
+        
+         @media (max-width: 1202px){
+            .classy-nav-container .classy-navbar .nav-brand{
+                margin-right: 0;
+            }
+        }
+        
         @media (max-width: 1010px) {
             .Query{
                 padding: 100px 20px 80px 30px;
@@ -130,6 +145,18 @@
                 width: 100%;
             }
         }
+        
+         @media (max-width: 767px){
+            h1{
+                font-size: 1.8rem;
+            }
+            .classy-nav-container .classy-navbar .nav-brand{
+                margin-right: 12px;
+                max-width: fit-content;
+                margin-top: 11px;
+            }
+        }
+        
         @media (max-width: 535px) {
             .Query .right form button {
                 padding: 10px 175px 10px 175px;
