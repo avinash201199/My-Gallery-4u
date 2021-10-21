@@ -442,15 +442,22 @@
                     </form>
                 </div>
             </div>
+            
             <hr>
             <div class="containerDown">
                 <div class="last">
-                    <p>Copyright © 2021 All rights reserved | Made with <span class="heart">❤</span> by <a href="#"
+                        <div class="head" style="color: #636363;">Total Website Visit</div>
+                        <div class="count" style="color: #636363;">00</div>
+                    </div>
+                    <p>Copyright © 2021 All rights reserved | Made with <span class="heart">❤</span> by <a href="https://www.instagram.com/my_gallery_4u"
                             target="_blank">Avinash Singh</a></p>
                 </div>
             </div>
         </div>
     </footer>
+
+
+
 </body>
 
 <!-- <footer class="footer-area">
@@ -482,7 +489,15 @@
             </div>
         </div>
     </footer> -->
-
+    <script>
+        function updateCounter() {
+         fetch('https://api.countapi.xyz/update/uimonk/youtubechannel/?amount=1')
+        .then(res => res.json())
+        .then(data => counterElement.innerHTML = data.value)
+        }
+        updateCounter()
+        counterElement = document.getElementsByClassName('count')[0];
+    </script>
 
 
 <script src="js/jquery.min.js"></script>
