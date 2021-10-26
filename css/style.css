@@ -1,10 +1,7 @@
 @font-face {
 	font-family: 'ElegantIcons';
-	src:url('fonts/ElegantIcons.eot');
-	src:url('fonts/ElegantIconsd41d.eot?#iefix') format('embedded-opentype'),
-		url('fonts/ElegantIcons.woff') format('woff'),
-		url('fonts/ElegantIcons.ttf') format('truetype'),
-		url('fonts/ElegantIcons.svg#ElegantIcons') format('svg');
+	src: url('fonts/ElegantIcons.eot');
+	src: url('fonts/ElegantIconsd41d.eot?#iefix') format('embedded-opentype'), url('fonts/ElegantIcons.woff') format('woff'), url('fonts/ElegantIcons.ttf') format('truetype'), url('fonts/ElegantIcons.svg#ElegantIcons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -12,12 +9,14 @@
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
 
 /* Use the following CSS code if you want to have a class per icon */
+
 /*
 Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="your-class-prefix"] {
 */
- .arrow_left, .arrow_right, .arrow_triangle-right, .icon_house_alt {
+
+.arrow_left, .arrow_right, .arrow_triangle-right, .icon_house_alt {
 	font-family: 'ElegantIcons';
 	speak: none;
 	font-style: normal;
@@ -27,17 +26,19 @@ you can use the generic selector below, but it's slower:
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 }
+
 .arrow_left:before {
 	content: "\23";
 }
+
 .arrow_right:before {
 	content: "\24";
 }
+
 .arrow_triangle-right:before {
 	content: "\45";
 }
+
 .icon_house_alt:before {
 	content: "\e009";
 }
-
-	
