@@ -1911,6 +1911,55 @@ footer {
   margin-top: 4em;
 }
 
+ /*Pricing 'Learn more' button hover effects*/
+
+.pricing .cards .card .button1{
+  position: relative;
+  display: block;
+  text-decoration: none;
+  background: white;
+  overflow: hidden;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
+  border-radius: 100px;
+}
+.pricing .cards .card .button1:hover{
+  background: none;
+  color:#fff;
+}
+.pricing .cards .card .button1 a{
+  color: #fc6060;
+}
+.pricing .cards .card .button1 a:hover{
+ color:#fff;
+}
+.pricing .cards .card .button1::before{
+  background: #fc6060;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+.pricing .cards .card .btn4::before{
+  width: 100%;
+  height: 0%;
+  -webkit-transform: translate(-50%,-50%) rotate(-45deg);
+  transform: translate(-50%,-50%) rotate(-45deg);
+}
+.pricing .cards .card .btn4:hover::before{
+  height: 380%;
+}
+.pricing .cards .card .btn4:hover::after{
+  content:" 🢂";
+  color:rgb(255, 255, 255);
+}
+
+
 @media only screen and (max-width: 750px) {
   body {
     background-color: lightblue;
