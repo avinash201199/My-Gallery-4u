@@ -28,6 +28,7 @@
     <style>
         @import url(https://weloveiconfonts.com/api/?family=entypo);
         @import url(css/default-assets/themify-icons.css);
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Source+Sans+Pro:wght@700&display=swap');
         .Query {
             display: flex;
             justify-content: space-around;
@@ -44,20 +45,61 @@
         }
 
         .Query .right form {
-            border: 2px solid;
-            padding: 10px;
+            background: rgba( 255, 255, 255, 0.25 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 3.5px );
+            -webkit-backdrop-filter: blur( 3.5px );
             border-radius: 20px;
-            box-shadow: 5px 5px 10px black;
+            border: 1px solid rgba( 255, 255, 255, 0.18 );
+            padding: 25px;
+            text-align: center;
         }
 
+        .contact-heading {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            line-height: 46px;
+            text-shadow: 0 2px 4px rgb(71 97 206 / 36%);
+            color: #fff !important;
+        }
         .Query .right form button {
             padding: 10px 200px 10px 200px;
-            border-radius: 20px;
-            border: 2px solid black;
-            color: white;
+            margin: 10px 10px;
+            color: #111;
             font-weight: bold;
-            /* width: 50%; */
-            /* box-shadow: 2px 2px 10px black; */
+            background: rgba( 255, 255, 255, 0.6 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 4.5px );
+            -webkit-backdrop-filter: blur( 4.5px );
+            border-radius: 10px;
+            border: 1px solid rgba( 255, 255, 255, 0.18 );
+        }
+
+        .Query .right form button:hover {
+            background: rgba( 255, 255, 255, 0.1 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 3.5px );
+            -webkit-backdrop-filter: blur( 3.5px );
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.397);
+        }
+
+        .Query .right form input{
+            background: rgba( 255, 255, 255, 0.6 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 4.5px );
+            -webkit-backdrop-filter: blur( 4.5px );
+            border-radius: 10px;
+            border: 1px solid rgba( 255, 255, 255, 0.18 );
+        }
+        .Query .right form textarea{
+            height: 100px;
+            background: rgba( 255, 255, 255, 0.6 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 4.5px );
+            -webkit-backdrop-filter: blur( 4.5px );
+            border-radius: 10px;
+            border: 1px solid rgba( 255, 255, 255, 0.18 );
         }
 
         h2{
@@ -120,14 +162,6 @@
         #footer-icons:hover{
             transform: none;
         }
-
-        .Query .right form button:hover {
-            border-radius: 20px;
-            border: 2px solid black;
-            color: white;
-            font-weight: bold;
-            box-shadow: 2px 2px 10px black;
-        }
         
         @media (max-width: 1010px) {
             .Query{
@@ -177,6 +211,7 @@
             }
         }
     </style>
+    <link rel="stylesheet" href="contact.css">
 </head>
 
 <body>
@@ -309,7 +344,47 @@
             <h2>Have Queries?<br> Send us a mail now!</h2>
         </div>
         <div class="right">
+            <!-- <section>
+  
+                <div class="box">
+                  
+                  <div class="square" style="--i:0;"></div>
+                  <div class="square" style="--i:1;"></div>
+                  <div class="square" style="--i:2;"></div>
+                  <div class="square" style="--i:3;"></div>
+                  <div class="square" style="--i:4;"></div>
+                  <div class="square" style="--i:5;"></div>
+                  
+                 <div class="container"> 
+                  <div class="form"> 
+                    <h2>LOGIN to CodePen</h2>
+                    <form action="">
+                      <div class="inputBx">
+                        <input type="text" required="required">
+                        <span>Login</span>
+                        <i class="fas fa-user-circle"></i>
+                      </div>
+                      <div class="inputBx password">
+                        <input id="password-input" type="password" name="password" required="required">
+                        <span>Password</span>
+                        <a href="#" class="password-control" onclick="return show_hide_password(this);"></a>
+                        <i class="fas fa-key"></i>
+                      </div>
+                      <label class="remember"><input type="checkbox">
+                        Remember</label>
+                      <div class="inputBx">
+                        <input type="submit" value="Log in" disabled> 
+                      </div>
+                    </form>
+                    <p>Forgot password? <a href="#">Click Here</a></p>
+                    <p>Don't have an account <a href="#">Sign up</a></p>
+                  </div>
+                </div>
+                  
+                </div>
+              </section> -->
             <form action="#">
+                <h3 class="contact-heading">Contact Us</h3>
                 <div class="row my-3">
                     <div class="col">
                         <input type="text" style="background-color: linear-gradient(goes left, orange, pink, blue);"
@@ -324,8 +399,7 @@
                     <label for="floatingInput">Email address</label>
                 </div>
                 <div class="form-floating my-3">
-                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-                        style="height: 100px"></textarea>
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"></textarea>
                     <label for="floatingTextarea2">Comments</label>
                 </div>
                 <br>
@@ -568,6 +642,8 @@
     </script>
     <script defer src="../../../static.cloudflareinsights.com/beacon.min.js"
         data-cf-beacon='{"rayId":"6990232fef241baa","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.9.0","si":100}'></script>
+
+    <script src="contact.js"></script>
 </body>
 
 <!-- Mirrored from preview.colorlib.com/theme/alime/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 Oct 2021 17:30:56 GMT -->
