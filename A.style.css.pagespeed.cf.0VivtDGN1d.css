@@ -2197,7 +2197,8 @@ footer {
   border: solid 1px;
   border-radius: 50px;
   width: 100%;
-  max-width: 500px;
+  max-width: 395px;
+  text-align:center;
   margin: 0 auto;
 }
 
