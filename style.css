@@ -2371,7 +2371,6 @@ footer {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  margin: 10px auto;
 }
 
 .connect>form>input {
@@ -2380,7 +2379,9 @@ footer {
   border: solid 1px;
   border-radius: 50px;
   width: 100%;
-  max-width: 500px;
+  max-width: 395px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .connect>form>button {
