@@ -79,6 +79,7 @@ h6 {
   left: 0;
   position: fixed;
   top: 30%;
+  z-index: 2;
 }
 
 #social-sidebar li:first-child a {
@@ -779,7 +780,7 @@ input:required {
 
 @media only screen and (max-width: 767px) {
   .classy-nav-container .classy-navbar .nav-brand {
-    max-width: 90px;
+    max-width: fit-content;
     margin-right: 15px;
   }
 }
@@ -945,7 +946,7 @@ input:required {
 
 .welcome-area {
   position: relative;
-  z-index: 1;
+  z-index: 10;
 }
 
 .welcome-slides {
