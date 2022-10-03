@@ -676,6 +676,10 @@ input:required {
 
 /* :: 7.0 Header CSS */
 
+.home-logo {
+  color: #eaeaea;
+}
+
 .header-area {
   position: fixed;
   z-index: 100;
