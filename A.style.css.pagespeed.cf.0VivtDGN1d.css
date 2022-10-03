@@ -601,7 +601,7 @@ textarea:invalid, input:invalid, textarea:required, input:required {
 
 @media only screen and (max-width:767px) {
   .classy-nav-container .classy-navbar .nav-brand {
-    max-width: 90px;
+    max-width: fit-content;
     margin-right: 15px
   }
 }
