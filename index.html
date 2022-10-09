@@ -17,6 +17,8 @@
 
     <!-- <link rel="icon" href="img/core-img/1.png"> -->
     <link rel="icon" href="img/core-img/favicon.png">
+    <!-- animate on scroll css  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -56,7 +58,7 @@
 
                     <nav class="classy-navbar justify-content-between" id="alimeNav">
 
-                        <a class="nav-brand" href="index.html"><h1>My Gallery 4U</h1></a>
+                        <a class="nav-brand" href="index.html" data-aos="fade-right" data-aos-duration="3000"><h1 class="home-logo">My Gallery 4U</h1></a>
 
                         <div class="classy-navbar-toggler">
                             <span class="navbarToggler"><span></span><span></span><span></span></span>
@@ -68,7 +70,7 @@
                                 <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
                             </div>
 
-                            <div class="classynav">
+                            <div class="classynav" data-aos="fade-left" data-aos-duration="3000">
                                 <ul id="nav">
                                     <li class="active"><a href="index.html">Home</a></li>
                                     <li><a href="about.html">About</a></li>
@@ -87,7 +89,7 @@
             </div>
         </div>
     </header>
-    <ul id="social-sidebar">
+    <ul id="social-sidebar" data-aos="fade-right" data-aos-duration="3000" style="z-index: 200">
         <li>
             <a class="entypo-facebook" href="#" target="_blank"><span>Facebook</span></a>
         </li>
@@ -109,7 +111,7 @@
     </ul>
 
 
-    <section class="welcome-area">
+    <section class="welcome-area" data-aos="fade-right-up" data-aos-duration="3000">
         <div class="welcome-slides owl-carousel">
 
             <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/bg-img/1.jpg);">
@@ -131,7 +133,7 @@
                 </div>
             </div>
 
-            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/bg-img/2.jpg);">
+            <div class="single-welcome-slide bg-img bg-overlay" data-aos="fade-left" data-aos-duration="3000" style="background-image: url(img/bg-img/2.jpg);">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
 
@@ -156,7 +158,7 @@
 
 
     <div class="alime-portfolio-area section-padding-80 ">
-        <div class="container-fluid">
+        <div class="container-fluid" data-aos="zoom-in" data-aos-duration="3000">
             <div class="row">
                 <div class="col-12">
 
@@ -292,7 +294,9 @@
     </div>
 
     <section class="pricing">
-        <h2>Pricing</h2> 
+        <div class="container" data-aos="zoom-in-up" data-aos-duration="3000">
+            <h2>Pricing</h2> 
+        </div>
         <div class="container">
             <div class="card">
                 <div class="circle">
@@ -342,7 +346,7 @@
         </div>
     </section>
 
-    <section class="follow-area clearfix">
+    <section class="follow-area clearfix" data-aos="fade-right" data-aos-duration="3000">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -419,7 +423,7 @@
     </section>
 
     <footer>
-        <div class="wrapper">
+        <div class="wrapper" data-aos="fade-up" data-aos-duration="3000">
             <div class="containerUp">
                 <div class="social-info">
                     <h2>Follow MY GALLERY 4U</h2>
@@ -439,11 +443,15 @@
                     </div>
                 </div>
                 <div class="connect">
-                    <h2>Stay up to date on the latest from My Gallery 4U</h2>
-                    <form>
+                    <div>
+                      <h2>Stay up to date on the latest from My Gallery 4U</h2>
+                    </div>
+                    <div class="connect-form">
+                      <form>
                         <input type="email" placeholder="Enter your email">
                         <button>Subscribe</button>
-                    </form>
+                      </form>
+                    </div>
                 </div>
             </div>
             
@@ -459,40 +467,8 @@
             </div>
         </div>
     </footer>
-
-
-
 </body>
 
-<!-- <footer class="footer-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="footer-content d-flex align-items-center justify-content-between">
-
-                        <div class="copywrite-text">
-                            <p>
-                                Copyright &copy;
-                                <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-                                <script>
-                                    document.write(new Date().getFullYear());
-                                </script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#" target="_blank">Avinash Singh</a>
-                            </p>
-                        </div>
-
-
-
-                        <div class="social-info">
-                            <a href="https://www.instagram.com/michael201199/" target="_blank" style="font-size: 25px; "> <i class="fa fa-instagram" aria-hidden="true"></i> </a>
-                            <a href="https://www.quora.com/profile/Avinash-Singh-4809" target="_blank" style="font-size: 25px; "> <i class="fa fa-quora" aria-hidden="true"></i> </a>
-                            <a href="https://github.com/avinash201199"  target="_blank" style="font-size: 25px; " > <i class="fa fa-github" aria-hidden="true"></i> </a>
-                            <a href="https://www.linkedin.com/in/avinash-singh-071b79175/"  target="_blank" style="font-size: 25px; " > <i class="fa fa-linkedin" aria-hidden="true"></i> </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer> -->
     <script>
         function updateCounter() {
          fetch('https://api.countapi.xyz/update/uimonk/youtubechannel/?amount=1')
@@ -532,6 +508,11 @@
 </script>
 <script defer src="../../../static.cloudflareinsights.com/beacon.min.js"
     data-cf-beacon='{"rayId":"699023133d611baa","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.9.0","si":100}'></script>
+<!-- animate on scroll js  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 
