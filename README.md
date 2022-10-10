@@ -6,7 +6,7 @@
 
 <br>
 
-- Contributing Guidelines HERE
+- [Contributing Guidelines HERE](https://github.com/avinash201199/My-Gallery-4u/blob/master/Guidelines.md)
 <br>
 
 ## Repo Status 
