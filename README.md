@@ -1,41 +1,49 @@
-# Design my photography Website
+# MY GALLERY 4 U
 
-#### Link- https://avinash201199.github.io/My-Gallery-4u/
+<div align="center">
 
-### I have added free photography website template and now you have to replace images and information with mine.
+[VISIT US HERE 💕](https://avinash201199.github.io/My-Gallery-4u/) </div>
 
-#### Take images from my instagram page and from this folder [my images](https://github.com/avinash201199/My-Gallery-4u/tree/master/my%20image)
+<br>
 
-#### Take my personal information from github profile [readme](https://github.com/avinash201199) and from [resume](https://drive.google.com/file/d/1K4-g2LlUJFHv-JzBtrBBSeBOUiRN1-iQ/view)
+- Contributing Guidelines HERE
+<br>
 
-## ❌Note : Don't add screen shot, download the images from instagram.
+## Repo Status 
 
-#### How to download image
+<br>
 
-- Copy the image link from instagram
-- Paste the url on this [website](https://en.savefrom.net/7/download-from-instagram)
-- Download the image
-- Replace the images from img folder
+<div align="center">
 
-## ❌Note : Things you can do!
+![GitHub contributors](https://img.shields.io/github/contributors/avinash201199/My-Gallery-4u?style=for-the-badge&color=blue)
+![GitHub Closed issues](https://img.shields.io/github/issues-closed-raw/avinash201199/My-Gallery-4u?style=for-the-badge&color=brightgreen)
+![GitHub PR Open](https://img.shields.io/github/issues-pr/avinash201199/My-Gallery-4u?style=for-the-badge&color=aqua)
+![GitHub PR closed](https://img.shields.io/github/issues-pr-closed-raw/avinash201199/My-Gallery-4u?style=for-the-badge&color=blue)
+![Github Repo Size](https://img.shields.io/github/repo-size/avinash201199/My-Gallery-4u?style=for-the-badge&color=aqua)
 
-- Remove unnecessary things and errors
-- Replace the information.
-- Improve UI/UX.
-- Add new features.
 
-## ❌Note : Read carefully before contributing
+</div>
+<br>
 
-- Star the repository.
-- Create an issue first and then wait for approval.
-- Fork the repository.
-- Don't forget to add issue number in pr heading with screen shot of changes in description.
-- Make pull request and wait for approval.
+## Contributors
 
-#### Instagram photography account -https://www.instagram.com/my_gallery_4u/
+<br>
 
-#### Linkedin - https://www.linkedin.com/in/avinash-singh-071b79175/
+<a href="https://github.com/avinash201199/My-Gallery-4u/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=avinash201199/My-Gallery-4u" />
+</a>
+<br>
+<br>
 
-#### Github - https://github.com/avinash201199
+<div align="center"> <h2> ⭐ Connect with us ⭐</h2></div>
 
-#### Email - avinash201199@gmail.com
+<div align="center"  class="icons-social" style="margin-left: 10px;">
+        <a style="margin-left: 10px;"  target="_blank" href="https://www.linkedin.com/in/avinash-singh-071b79175/">
+			<img src="https://img.icons8.com/doodle/40/000000/linkedin--v2.png"></a>
+        <a style="margin-left: 10px;" target="_blank" href="https://github.com/avinash201199">
+		<img src="https://img.icons8.com/doodle/40/000000/github--v1.png"></a>
+        <a style="margin-left: 10px;" target="_blank" href="https://www.instagram.com/my_gallery_4u/">
+			<img src="https://img.icons8.com/doodle/40/000000/instagram-new--v2.png"></a>
+      </div>
+
+
