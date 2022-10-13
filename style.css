@@ -700,6 +700,11 @@ input:required {
   font-size: 18px;
   color: #ffffff;
   cursor: pointer;
+  transition: 0.5s;
+}
+.header-area .search-icon i:hover {
+  transition: 0.5s;
+  color: #fc6060;
 }
 
 .top-search-area .modal {
