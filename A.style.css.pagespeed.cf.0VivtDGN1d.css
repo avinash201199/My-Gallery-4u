@@ -521,7 +521,12 @@ textarea:invalid, input:invalid, textarea:required, input:required {
 .header-area .search-icon i {
   font-size: 18px;
   color: #fff;
-  cursor: pointer
+  cursor: pointer;
+  transition: 0.5s;
+}
+.header-area .search-icon i:hover {
+  transition: 0.5s;
+  color: #fc6060;
 }
 
 .top-search-area .modal {
