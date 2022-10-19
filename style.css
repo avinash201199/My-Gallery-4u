@@ -2404,7 +2404,8 @@ footer {
   margin: 40px auto;
   padding-right: 15px;
 }
-.social-info h2, .connect h2{
+.social-info h2,
+.connect h2 {
   font-size: 25px;
 }
 .social-info > .icons {
@@ -2468,14 +2469,14 @@ footer {
   padding: 10px;
 }
 
-.connect  form {
+.connect form {
   display: flex;
   align-items: flex-start;
   justify-content: center;
   margin: 10px;
 }
 
-.connect  form > input {
+.connect form > input {
   background-color: cornsilk;
   padding: 10px 15px;
   border: solid 1px;
@@ -2486,7 +2487,7 @@ footer {
   margin-right: 2px;
 }
 
-.connect  form > button {
+.connect form > button {
   margin: 15px auto;
   border: none;
   padding: 10px 15px;
@@ -2496,18 +2497,18 @@ footer {
   transition: 0.3s;
 }
 
-.connect  form > button:hover {
+.connect form > button:hover {
   letter-spacing: 1px;
   color: #ffe89e;
   outline-style: none;
 }
 
-@media only screen and (max-width: 1050px){
-  .connect{
+@media only screen and (max-width: 1050px) {
+  .connect {
     display: flex;
     flex-direction: column;
   }
-  .connect-form{
+  .connect-form {
     max-width: 400px;
     margin-left: 20%;
   }
