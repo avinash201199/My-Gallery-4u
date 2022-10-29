@@ -2426,16 +2426,17 @@ footer {
 .social-info {
   display: flex;
   flex-direction: column;
-  margin: 40px auto;
+  margin: 10px auto;
   padding-right: 15px;
 }
 .social-info h2,
 .connect h2 {
-  font-size: 25px;
+  font-size: 22px;
 }
 .social-info > .icons {
   margin: 0 auto;
   transition: 0.5s;
+  
 }
 
 .social-info > .icons > a {
@@ -2483,9 +2484,13 @@ footer {
   max-width: 900px;
   text-align: center;
   margin: 0 auto;
-  border: 0.5px white solid;
+  margin-top: 30px;
+  
+/*  border: 0.5px white solid;
   border-radius: 8px;
+  */
   padding: 10px;
+  flex-direction: column;
 }
 
 .connect h2 {
@@ -2499,7 +2504,10 @@ footer {
   align-items: flex-start;
   justify-content: center;
   margin: 10px;
+  margin-top: 0px;
 }
+
+
 
 .connect form > input {
   background-color: cornsilk;
@@ -2549,7 +2557,7 @@ footer {
 
 .containerDown {
   text-align: center;
-}
+ }
 
 .last > p {
   color: burlywood;
