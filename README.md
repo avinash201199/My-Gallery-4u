@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[VISIT US HERE 💕](https://avinash201199.github.io/My-Gallery-4u/) </div>
+[VISIT OUR GALLERY HERE 💕](https://avinash201199.github.io/My-Gallery-4u/) </div>
 
 <br>
 
@@ -35,7 +35,7 @@
 <br>
 <br>
 
-<div align="center"> <h2> ⭐ Connect with us ⭐</h2></div>
+<div align="center"> <h2> ⭐ Connect With Us ⭐</h2></div>
 
 <div align="center"  class="icons-social" style="margin-left: 10px;">
         <a style="margin-left: 10px;"  target="_blank" href="https://www.linkedin.com/in/avinash-singh-071b79175/">
