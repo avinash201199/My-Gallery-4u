@@ -1,4 +1,4 @@
-# MY GALLERY 4 U
+# Lx GALLERY
 
 <div align="center">
 
