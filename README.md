@@ -35,15 +35,3 @@
 <br>
 <br>
 
-<div align="center"> <h2> ⭐ Connect With Us ⭐</h2></div>
-
-<div align="center"  class="icons-social" style="margin-left: 10px;">
-        <a style="margin-left: 10px;"  target="_blank" href="https://www.linkedin.com/in/avinash-singh-071b79175/">
-			<img src="https://img.icons8.com/doodle/40/000000/linkedin--v2.png"></a>
-        <a style="margin-left: 10px;" target="_blank" href="https://github.com/avinash201199">
-		<img src="https://img.icons8.com/doodle/40/000000/github--v1.png"></a>
-        <a style="margin-left: 10px;" target="_blank" href="https://www.instagram.com/my_gallery_4u/">
-			<img src="https://img.icons8.com/doodle/40/000000/instagram-new--v2.png"></a>
-      </div>
-
-
