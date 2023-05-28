@@ -2,13 +2,13 @@
 
 - I have added free photography website template and now you have to replace images and information with mine.
 
-- Take images from here [IMAGES](https://github.com/avinash201199/My-Gallery-4u/tree/master/my%20image)
+- Take images from here [IMAGES](https://github.com/iAmAshuSahoo/My-Gallery-4u/tree/master/my%20image)
 
-- Take my personal information from [PROFILE](https://github.com/avinash201199) and [RESUME](https://drive.google.com/file/d/1K4-g2LlUJFHv-JzBtrBBSeBOUiRN1-iQ/view)
+- Take my personal information from [PROFILE](https://www.linkedin.com/in/iamashusahoo/)
 
 <br>
 
-## ❌Note: Don't add screenshots, download the images from Instagram.
+## ✅Note: Don't add screenshots, download the images from Instagram.
 <br>
 
 ## How to download the image
@@ -18,14 +18,14 @@
 - Download the image
 - Replace the images from img folder
 
-## ❌Note: Things you can do!
+## ✅Note: Things you can do!
 
 - Remove unnecessary things and errors
 - Replace the information.
 - Improve UI/UX.
 - Add new features.
 
-## ❌Note: Read before contributing
+## ✅Note: Read before contributing
 
 - Star the repository.
 - Create an issue first and then wait for the approval.
