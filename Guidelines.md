@@ -1,6 +1,6 @@
 ### What is your task?
 
-- I have added free photography website template and now you have to replace images and information with mine.
+- I have added a free photography website template and now you have to replace images and information with mine.
 
 - Take images from here [IMAGES](https://github.com/avinash201199/My-Gallery-4u/tree/master/my%20image)
 
@@ -16,7 +16,7 @@
 - Copy the image link from Instagram
 - Paste the URL on this [website](https://en.savefrom.net/7/download-from-instagram)
 - Download the image
-- Replace the images from img folder
+- Replace the images from the image folder
 
 ## ❌Note: Things you can do!
 
@@ -28,7 +28,7 @@
 ## ❌Note: Read before contributing
 
 - Star the repository.
-- Create an issue first and then wait for the approval.
+- Create an issue first and then wait for approval.
 - Fork the repository.
 - Don't forget to add the issue number in the PR Template with a screenshot of the changes in the description.
 - Make your pull request and wait for its approval.
