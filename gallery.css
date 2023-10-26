@@ -1,0 +1,14 @@
+h1 {
+    color: #eaeaea;
+  }
+
+  @media only screen and (max-width: 767px) {
+    h1 {
+      font-size: 1.8rem;
+    }
+
+    .classy-nav-container .classy-navbar .nav-brand {
+      max-width: fit-content;
+      margin-right: 15px;
+    }
+  }
