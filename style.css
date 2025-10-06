@@ -2689,6 +2689,7 @@ body {
 }
 .pagination {
   display: inline-block;
+  margin: auto;
 }
 
 .pagination a {
