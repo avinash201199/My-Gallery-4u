@@ -1,3 +1,26 @@
+/* Custom Scrollbar Styling */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+    width: 14px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(217, 2, 2, 0.945);
+    background-image: -webkit-linear-gradient(45deg,
+                                              rgba(255, 255, 255, .2) 25%,
+                                              transparent 25%,
+                                              transparent 50%,
+                                              rgba(255, 255, 255, .2) 50%,
+                                              rgba(255, 255, 255, .2) 75%,
+                                              transparent 75%,
+                                              transparent)
+}
+
 h1 {
     color: #eaeaea;
 }
@@ -11,4 +34,69 @@ h1 {
         max-width: fit-content;
         margin-right: 15px;
     }
+}
+
+/* Search Modal Styling */
+.top-search-area .modal-content .modal-body button.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 10;
+  font-size: 24px;
+  color: #d91c1c;
+}
+
+.top-search-area .modal-content .modal-body button.close-btn.btn {
+  padding: 0;
+  background-color: transparent;
+}
+
+.top-search-area form input {
+  width: 85%;
+  height: 50px;
+  border: none;
+  -webkit-box-shadow: 0 0 30px 15px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 30px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  font-size: 18px;
+  font-style: italic;
+  padding: 0 20px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Search Modal Styling */
+.top-search-area .modal-content .modal-body button.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 10;
+  font-size: 24px;
+  color: #d91c1c;
+}
+
+.top-search-area .modal-content .modal-body button.close-btn.btn {
+  padding: 0;
+  background-color: transparent;
+}
+
+.top-search-area form input {
+  width: 85%;
+  height: 50px;
+  border: none;
+  -webkit-box-shadow: 0 0 30px 15px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 30px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  font-size: 18px;
+  font-style: italic;
+  padding: 0 20px;
+  margin: 0 auto;
+  display: block;
+}
+
+.pagination-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

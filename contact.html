@@ -42,42 +42,24 @@
   <body>
    
 
-    <div class="top-search-area">
-      <div
-        class="modal fade"
-        id="searchModal"
-        tabindex="-1"
-        role="dialog"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-body">
-              <button
-                type="button"
-                class="btn close-btn"
-                data-dismiss="modal"
-                style="font-size: 18px"
-              >
-                <i class="fas fa-times-circle"></i>
-              </button>
+     <div class="top-search-area">
+        <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
 
-              <form
-                action="https://preview.colorlib.com/theme/alime/index.html"
-                method="post"
-              >
-                <input
-                  type="search"
-                  name="top-search-bar"
-                  class="form-control"
-                  placeholder="Search and hit enter..."
-                />
-                <button type="submit">Search</button>
-              </form>
+                        <button type="button" class="btn close-btn" data-dismiss="modal"><i
+                                class="fas fa-times-circle"></i> </button>
+
+                        <form action="https://preview.colorlib.com/theme/alime/index.html" method="post">
+                            <input type="search" name="top-search-bar" class="form-control"
+                                placeholder="Search and hit enter...">
+                            <button type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
 
     <header class="header-area">
@@ -85,8 +67,8 @@
         <div class="classy-nav-container breakpoint-off">
           <div class="container">
             <nav class="classy-navbar justify-content-between" id="alimeNav">
-              <a class="nav-brand" href="index.html">
-                <h1>My Gallery 4U</h1>
+              <a class="nav-brand" href="index.html" data-aos="fade-right" data-aos-duration="3000">
+                <h1 class="home-logo">My Gallery 4U</h1>
               </a>
 
               <div class="classy-navbar-toggler">
@@ -102,7 +84,7 @@
                   </div>
                 </div>
 
-                <div class="classynav">
+                <div class="classynav" data-aos="fade-left" data-aos-duration="3000">
                   <ul id="nav">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
