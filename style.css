@@ -745,7 +745,8 @@ input:required {
   top: 15px;
   right: 15px;
   z-index: 10;
-  font-size: 14px;
+  font-size: 24px;
+  color: #d91c1c;
 }
 
 .top-search-area .modal-content .modal-body button.close-btn.btn {
@@ -760,15 +761,17 @@ input:required {
 }
 
 .top-search-area form input {
-  width: 100%;
+  width: 85%;
   height: 50px;
   border: none;
   -webkit-box-shadow: 0 0 30px 15px rgba(0, 0, 0, 0.08);
   box-shadow: 0 0 30px 15px rgba(0, 0, 0, 0.08);
   border-radius: 6px;
-  font-size: 12px;
+  font-size: 14 px;
   font-style: italic;
   padding: 0 20px;
+  margin: 0 auto;
+  display: block;
 }
 
 .top-search-area form input:focus {
@@ -2706,3 +2709,10 @@ body {
 }
 
 .pagination a:hover:not(.active) {background-color: #ddd;}
+
+/* for social sidebar */
+.social-icon{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
