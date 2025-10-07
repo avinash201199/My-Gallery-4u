@@ -103,7 +103,7 @@ h6 {
   left: 0;
   position: fixed;
   top: 30%;
-  z-index: 2;
+  z-index: 200;
 }
 
 #social-sidebar li:first-child a {
