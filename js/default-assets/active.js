@@ -123,7 +123,7 @@
     // ***********************************
     // :: 6.0 Portfolio Button Active Code
     // ***********************************
-    
+
     $('.portfolio-menu button.btn').on('click', function () {
         $('.portfolio-menu button.btn').removeClass('active');
         $(this).addClass('active');
@@ -155,14 +155,77 @@
         $('.video-play-btn').magnificPopup({
             type: 'iframe'
         });
+        // Initialize popup for all pages with gallery images
         $('.portfolio-img').magnificPopup({
             type: 'image',
+            mainClass: 'mfp-fade',
+            removalDelay: 300,
+            fixedContentPos: true,
+            overflowY: 'hidden',
+            closeOnContentClick: false,
+            closeOnBgClick: true,
+            enableEscapeKey: true,
             gallery: {
                 enabled: true,
-                preload: [0, 2],
-                navigateByImgClick: true,
+                preload: [1, 3],
+                navigateByImgClick: false,
+                arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"><i class="fas fa-chevron-%dir%"></i></button>',
                 tPrev: 'Previous',
                 tNext: 'Next'
+            },
+            image: {
+                verticalFit: true,
+                titleSrc: false,
+                cursor: 'default'
+            },
+            callbacks: {
+                open: function () {
+                    // Prevent clicking on image from closing
+                    $('.mfp-img').css({
+                        'cursor': 'default',
+                        'pointer-events': 'none'
+                    });
+
+                    // Make sure arrows are visible and clickable
+                    $('.mfp-arrow').css({
+                        'display': 'block',
+                        'opacity': '1',
+                        'visibility': 'visible'
+                    });
+
+                    // Enable keyboard navigation
+                    $(document).on('keydown.gallery', function (e) {
+                        if (e.keyCode === 37) { // Left arrow
+                            $.magnificPopup.instance.prev();
+                        } else if (e.keyCode === 39) { // Right arrow
+                            $.magnificPopup.instance.next();
+                        }
+                    });
+
+                    // Prevent arrow clicks from closing the popup
+                    $('.mfp-arrow').on('click', function (e) {
+                        e.stopPropagation();
+                    });
+
+                    // Prevent figure clicks from closing
+                    $('.mfp-figure').on('click', function (e) {
+                        if (!$(e.target).is('.mfp-close')) {
+                            e.stopPropagation();
+                        }
+                    });
+                },
+                change: function () {
+                    // Ensure arrows stay visible when changing images
+                    $('.mfp-arrow').css({
+                        'display': 'block',
+                        'opacity': '1',
+                        'visibility': 'visible'
+                    });
+                },
+                beforeClose: function () {
+                    $(document).off('keydown.gallery');
+                    $('.mfp-figure').off('click');
+                }
             }
         });
     }
