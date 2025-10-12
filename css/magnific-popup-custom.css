@@ -1,0 +1,53 @@
+/* Custom styles for Magnific Popup */
+.mfp-close {
+    position: fixed !important;
+    right: 20px !important;
+    top: 20px !important;
+    width: 44px !important;
+    height: 44px !important;
+    line-height: 44px !important;
+    opacity: 0.8 !important;
+    padding: 0 !important;
+    text-align: center !important;
+    background: rgba(0, 0, 0, 0.5) !important;
+    color: #fff !important;
+    font-size: 28px !important;
+    font-weight: bold !important;
+    border-radius: 50% !important;
+    cursor: pointer !important;
+    z-index: 2000 !important;
+    transition: all 0.3s ease !important;
+}
+
+.mfp-close:hover {
+    opacity: 1 !important;
+    background: rgba(0, 0, 0, 0.8) !important;
+    transform: scale(1.1) !important;
+}
+
+.mfp-wrap {
+    cursor: default !important;
+}
+
+.mfp-container {
+    cursor: default !important;
+}
+
+.mfp-content {
+    cursor: default !important;
+}
+
+.mfp-figure {
+    cursor: default !important;
+}
+
+.mfp-img {
+    cursor: default !important;
+    pointer-events: none !important;
+}
+
+/* Ensure arrows stay visible */
+.mfp-arrow {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
