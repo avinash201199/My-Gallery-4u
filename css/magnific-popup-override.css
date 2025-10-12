@@ -1,0 +1,111 @@
+/* Navigation arrows override - Latest styles */
+.mfp-arrow {
+    width: 50px !important;
+    height: 50px !important;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    border-radius: 50% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    opacity: 1 !important;
+    transition: all 0.3s ease !important;
+    position: fixed !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    z-index: 2046 !important;
+    cursor: pointer !important;
+    pointer-events: auto !important;
+    display: block !important;
+    visibility: visible !important;
+    border: 2px solid rgba(255, 255, 255, 0.4) !important;
+}
+
+.mfp-arrow:before,
+.mfp-arrow:after {
+    display: none !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.mfp-arrow-left {
+    left: 20px !important;
+    right: auto !important;
+}
+
+.mfp-arrow-right {
+    right: 20px !important;
+    left: auto !important;
+}
+
+.mfp-arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    border-color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.mfp-arrow i {
+    color: #fff !important;
+    font-size: 24px !important;
+    line-height: 1 !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    margin: 0 !important;
+}
+
+/* Ensure proper spacing for the image */
+.mfp-figure {
+    margin: 0 60px !important;
+}
+
+.mfp-container {
+    padding: 0 !important;
+    overflow: hidden !important;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+    .mfp-arrow {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    
+    .mfp-arrow-left {
+        left: 15px !important;
+    }
+    
+    .mfp-arrow-right {
+        right: 15px !important;
+    }
+    
+    .mfp-arrow i {
+        font-size: 20px !important;
+    }
+    
+    .mfp-figure {
+        margin: 0 45px !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .mfp-arrow {
+        width: 36px !important;
+        height: 36px !important;
+    }
+    
+    .mfp-arrow-left {
+        left: 10px !important;
+    }
+    
+    .mfp-arrow-right {
+        right: 10px !important;
+    }
+    
+    .mfp-arrow i {
+        font-size: 16px !important;
+    }
+    
+    .mfp-figure {
+        margin: 0 30px !important;
+    }
+}
