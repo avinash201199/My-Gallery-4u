@@ -159,7 +159,6 @@
               </div>
             </div>
           </div>
-        </div>
 
           <div
             class="col-12 col-sm-6 col-lg-3 single_gallery_item video human mb-30"
@@ -173,7 +172,6 @@
               </div>
             </div>
           </div>
-        </div>
 
           <div
             class="col-12 col-sm-6 col-lg-3 single_gallery_item country mb-30"
@@ -194,7 +192,6 @@
               </div>
             </div>
           </div>
-        </div>
 
           <div
             class="col-12 col-sm-6 col-lg-3 single_gallery_item human mb-30"
@@ -208,7 +205,6 @@
               </div>
             </div>
           </div>
-        </div>
 
           <div
             class="col-12 col-sm-6 col-lg-3 single_gallery_item nature mb-30"
@@ -226,7 +222,6 @@
               </div>
             </div>
           </div>
-        </div>
 
           <div
             class="col-12 col-sm-6 col-lg-3 single_gallery_item video country mb-30"
@@ -247,7 +242,6 @@
               </div>
             </div>
           </div>
-        </div>
 
           <div
             class="col-12 col-sm-6 col-lg-3 single_gallery_item human mb-30"
@@ -261,7 +255,6 @@
               </div>
             </div>
           </div>
-        </div>
 
           <div
             class="col-12 col-sm-6 col-lg-3 single_gallery_item nature mb-30"
@@ -279,7 +272,6 @@
               </div>
             </div>
           </div>
-        </div>
 
           <div
             class="col-12 col-sm-6 col-lg-3 single_gallery_item video country mb-30"
@@ -300,7 +292,6 @@
               </div>
             </div>
           </div>
-        </div>
 
           <div
             class="col-12 col-sm-6 col-lg-3 single_gallery_item human mb-30"
@@ -317,7 +308,6 @@
               </div>
             </div>
           </div>
-        </div>
 
           <div
             class="col-12 col-sm-6 col-lg-3 single_gallery_item country mb-30"
@@ -338,7 +328,6 @@
               </div>
             </div>
           </div>
-        </div>
 
           <div
             class="col-12 col-sm-6 col-lg-3 single_gallery_item country mb-30"
@@ -521,6 +510,40 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+
+    <!-- Simple Gallery Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Filter functionality for existing buttons
+            const filterButtons = document.querySelectorAll('.portfolio-menu .btn');
+            const galleryItems = document.querySelectorAll('.single_gallery_item');
+            
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    // Update active state
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    const filter = this.getAttribute('data-filter');
+                    
+                    galleryItems.forEach(item => {
+                        if (filter === '*') {
+                            item.style.display = 'block';
+                        } else {
+                            const itemClasses = item.className;
+                            if (itemClasses.includes(filter.replace('.', ''))) {
+                                item.style.display = 'block';
+                            } else {
+                                item.style.display = 'none';
+                            }
+                        }
+                    });
+                });
+            });
+        });
     </script>
 
 </body>
