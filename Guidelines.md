@@ -25,7 +25,7 @@
 - Improve UI/UX.
 - Add new features.
 
-## ❌Note: Read before contributing
+## ❌Note: Read before contribution
 
 - Star the repository.
 - Create an issue first and then wait for approval.
