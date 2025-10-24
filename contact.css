@@ -435,7 +435,7 @@ html {
 @media (max-width: 768px) {
   .hero-section {
     margin-bottom: 3rem;
-    padding-top: 30px;
+    padding-top: 5rem;
   }
 
   .form-container {
@@ -516,7 +516,7 @@ html {
 
   .hero-section {
     margin-bottom: 2rem;
-    padding-top: 20px;
+    padding-top: 4rem;
   }
 
   .form-container {
