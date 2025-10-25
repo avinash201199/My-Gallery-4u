@@ -1,70 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact - My Gallery 4U</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Gallery 4U | Contact</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="contact-page">
+    <div class="bg-animation"></div>
 
-  <header>
-    <h1>My Gallery 4U</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
+    <header class="header-area">
+      <div class="main-header-area">
+        <div class="classy-nav-container breakpoint-off">
+          <div class="container">
+            <nav class="classy-navbar justify-content-between" id="alimeNav">
+              <a
+                class="nav-brand"
+                href="index.html"
+                data-aos="fade-right"
+                data-aos-duration="3000"
+              >
+                <h1 class="home-logo">My Gallery 4U</h1>
+              </a>
+              <div class="classy-navbar-toggler">
+                <span class="navbarToggler"
+                  ><span></span><span></span><span></span
+                ></span>
+              </div>
+              <div class="classy-menu">
+                <div class="classycloseIcon">
+                  <div class="cross-wrap">
+                    <span class="top"></span><span class="bottom"></span>
+                  </div>
+                </div>
+                <div
+                  class="classynav"
+                  data-aos="fade-left"
+                  data-aos-duration="3000"
+                >
+                  <ul id="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
+                  </ul>
+                  <div
+                    class="search-icon"
+                    data-toggle="modal"
+                    data-target="#searchModal"
+                  >
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
 
-  <section id="contactFormSection">
-    <h2>Contact Us</h2>
-    <form>
-      <input type="text" placeholder="Name" required>
-      <input type="email" placeholder="Email" required>
-      <textarea placeholder="Message" required></textarea>
-      <button type="submit">Send</button>
-    </form>
-  </section>
+    <main>
+      <div class="container">
+        <!-- Enhanced hero section with better typography and spacing -->
+        <div class="hero-section">
+          <h2>Get in Touch</h2>
+          <p>
+            Have a question or want to work together? We'd love to hear from
+            you. Fill out the form below and we'll get back to you as soon as
+            possible.
+          </p>
+        </div>
 
-  <footer>
-    <p>© 2025 My Gallery 4U</p><!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact - My Gallery 4U</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+        <!-- Improved form section with better structure and additional fields -->
+        <section id="contactFormSection">
+          <div class="form-container">
+            <form id="contactForm">
+              <!-- Two-column layout for name and email on larger screens -->
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Full Name *</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="John Doe"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email Address *</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="john@example.com"
+                    required
+                  />
+                </div>
+              </div>
 
-  <header>
-    <h1>My Gallery 4U</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
+              <!-- Added phone and subject fields for better communication -->
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="+1 (555) 000-0000"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="subject">Subject *</label>
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    placeholder="How can we help?"
+                    required
+                  />
+                </div>
+              </div>
 
-  <section id="contactFormSection">
-    <h2>Contact Us</h2>
-    <form>
-      <input type="text" placeholder="Name" required>
-      <input type="email" placeholder="Email" required>
-      <textarea placeholder="Message" required></textarea>
-      <button type="submit">Send</button>
-    </form>
-  </section>
+              <!-- Full-width message textarea -->
+              <div class="form-group full-width">
+                <label for="message">Message *</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Tell us more about your inquiry..."
+                  required
+                ></textarea>
+              </div>
 
-  <footer>
-    <p>© 2025 My Gallery 4U</p>
-  </footer>
+              <!-- Success message with improved styling -->
+              <div class="success-message" id="successMessage">
+                <span class="success-icon">✓</span>
+                <div>
+                  <strong>Message sent successfully!</strong>
+                  <p>We'll get back to you soon.</p>
+                </div>
+              </div>
 
-  <script src="contact.js"></script>
-</body>
-</html>
+              <!-- Improved button with better accessibility -->
+              <button type="submit" class="submit-btn">
+                <span>Send Message</span>
+              </button>
+            </form>
+          </div>
+        </section>
+      </div>
+    </main>
 
-  </footer>
+    <div class="containerDown">
+      <div class="last">
+        <p>
+          Copyright © 2022 All rights reserved | Made with
+          <span class="heart">❤</span> by
+          <a href="#" target="_blank" rel="noopener">Avinash Singh</a>
+        </p>
+      </div>
+    </div>
 
-  <script src="contact.js"></script>
-</body>
+    <script src="contact.js"></script>
+  </body>
 </html>
