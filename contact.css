@@ -1,32 +1,129 @@
-body {
-  font-family: 'Open Sans', sans-serif;
-  background: #121212;
-  color: #fff;
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Form styling */
-form#contactForm input, form#contactForm textarea,
-form#quoteForm input, form#quoteForm textarea {
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 25%, #f79d65 50%, #feca57 75%, #ff9ff3 100%);
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header Styles */
+header {
+  background: transparent;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 15px;
+  font-size: 2em;
+  color: #000;
+  font-weight: 700;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+nav a:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* Contact Form Section */
+#contactFormSection {
+  flex: 1;
+  max-width: 600px;
+  width: 90%;
+  margin: 50px auto;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+
+#contactFormSection h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2em;
+  color: #000;
+}
+
+/* Form Inputs - Matching your original structure */
+#contactFormSection form input,
+#contactFormSection form textarea {
   width: 100%;
   margin-bottom: 15px;
   padding: 10px;
   border-radius: 8px;
-  border: none;
-  background: rgba(255,255,255,0.1);
-  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.5);
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
 }
 
+#contactFormSection form input:focus,
+#contactFormSection form textarea:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.7);
+  border-color: rgba(0, 0, 0, 0.3);
+}
+
+#contactFormSection form input::placeholder,
+#contactFormSection form textarea::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#contactFormSection form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Form Button */
 form button {
   padding: 10px 25px;
-  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   cursor: pointer;
+  background: rgba(255, 255, 255, 0.5);
+  color: #000;
+  font-weight: 600;
+  width: 100%;
+  font-size: 1em;
 }
 
 form button:hover {
   opacity: 0.9;
+  background: rgba(255, 255, 255, 0.7);
 }
 
+/* Footer */
+footer {
+  background: transparent;
+  text-align: center;
+  padding: 20px;
+  color: #333;
+  margin-top: auto;
+}
+
+/* Icons Container (for other pages) */
 .icons-container {
   display: flex;
   gap: 15px;
@@ -37,12 +134,49 @@ form button:hover {
   width: 40px;
 }
 
+/* Quote Modal (for other pages) */
 #quoteModal .modal-content {
-  background: rgba(30,30,30,0.95);
+  background: rgba(30, 30, 30, 0.95);
   color: #fff;
 }
 
-#quoteModal input, #quoteModal textarea {
-  background: rgba(255,255,255,0.1);
+#quoteModal input,
+#quoteModal textarea {
+  background: rgba(255, 255, 255, 0.1);
   color: #fff;
+}
+
+form#contactForm input,
+form#contactForm textarea,
+form#quoteForm input,
+form#quoteForm textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.5em;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #contactFormSection {
+    margin: 30px auto;
+    padding: 30px 20px;
+    width: 95%;
+  }
+
+  #contactFormSection h2 {
+    font-size: 1.5em;
+  }
 }
